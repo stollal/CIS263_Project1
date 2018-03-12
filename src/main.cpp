@@ -36,4 +36,4 @@ TEST_CASE( "Pop test", "[inner]" ){
 		std::cout << s.pop() << std::endl;
 	}
 	CHECK( s.size() == 500 );
-}
+};
